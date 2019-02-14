@@ -1,3 +1,4 @@
+Based off of:
 fauria/lamp
 ==========
 
@@ -17,7 +18,7 @@ Includes the following components:
  * Apache HTTP Server 2.4
  * MariaDB 10.0
  * Postfix 2.11
- * PHP 7
+ * PHP 7.3
  * PHP modules
  	* php-bz2
 	* php-cgi
@@ -35,7 +36,6 @@ Includes the following components:
 	* php-intl
 	* php-json
 	* php-ldap
-	* php-mcrypt
 	* php-mysql
 	* php-odbc
 	* php-opcache
@@ -60,6 +60,7 @@ Includes the following components:
 	* nano
 	* ftp
 	* curl
+	* laravel global
 
 Installation from [Docker registry hub](https://registry.hub.docker.com/u/fauria/lamp/).
 ----

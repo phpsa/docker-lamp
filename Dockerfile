@@ -7,7 +7,6 @@ LABEL Description="Cutting-edge LAMP stack, based on Ubuntu 16.04 LTS. Includes 
 
 RUN apt-get update
 RUN apt-get install -y software-properties-common
-RUN add-apt-repository ppa:ondrej/apache2 -y
 RUN add-apt-repository ppa:ondrej/php -y
 
 RUN apt-get update
